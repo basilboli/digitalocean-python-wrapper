@@ -4,13 +4,13 @@ Poseidon is simple command line tool to manage digital ocean droplets.
 see https://developers.digitalocean.com for all APIs.
 
 # Prerequisites
-- Install fabric
-- 
-<code> pip install fabric </code>
 
+1. Install fabric
+<code> pip install fabric </code>
 (see http://docs.fabfile.org/en/1.8)
 
-- replace API_KEY and CLIENT_ID with real values (see https://cloud.digitalocean.com/api_access)
+2. Replace API_KEY and CLIENT_ID with real values 
+(see https://cloud.digitalocean.com/api_access)
 
 # Usage  
 <code> fab --list</code> to list all available commands
